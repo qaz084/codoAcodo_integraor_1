@@ -14,9 +14,20 @@
    color:white;
 
 }
+header{
+   position:fixed;
+   z-index:10;
+  background-color:  rgba(1,1,1,.7);
+  
+   margin:auto;
+}
 header img{
    width:7%;
 
+}
+
+.logo__container{
+   width:6%;
 }
 
 .carousel-item {
@@ -31,18 +42,22 @@ header img{
  }
  
  .btn{
-      background-color:black !important;
+      background-color: #272727 !important;
       color:white !important;
+      border:none !important;
  }
  .btn:hover{
    background-color:white !important;
-   color:black !important;
+   color: #272727 !important;
+   border: 1px solid black !important;
  }
 
- section #nosotros{
+ .subtitles{
    color: orange !important;
-   background-color: red !important;
+   font-weight:bold !important;
+   
  }
- .fondoDiv{
-   background-color:red !important;
- }
+.send__button{
+   padding:.9rem !important;
+  // background-color:#009F71!important;
+}
