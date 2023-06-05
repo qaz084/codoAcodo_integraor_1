@@ -16,9 +16,9 @@
 }
 header{
    position:fixed;
+   top:0;
    z-index:10;
   background-color:  rgba(1,1,1,.7);
-  
    margin:auto;
 }
 header img{
@@ -44,12 +44,14 @@ header img{
  .btn{
       background-color: #272727 !important;
       color:white !important;
-      border:none !important;
+     
+      border:1px solid transparent!important;
  }
  .btn:hover{
    background-color:white !important;
    color: #272727 !important;
    border: 1px solid black !important;
+
  }
 
  .subtitles{
@@ -60,4 +62,13 @@ header img{
 .send__button{
    padding:.9rem !important;
   // background-color:#009F71!important;
+}
+.reservation__button{
+   padding:1rem !important;
+   background-color:#009F71!important;
+   width:30%;
+   font-size: 1.5rem !important;
+}
+.reservation__section{
+   margin-top:150px;
 }
